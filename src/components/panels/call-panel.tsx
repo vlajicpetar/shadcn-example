@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import {
-  X,
   Phone,
   PhoneOff,
   MessageSquare,
@@ -128,9 +127,6 @@ export function CallPanel({ isOpen, onClose }: CallPanelProps) {
                 </TooltipTrigger>
                 <TooltipContent>View conversation</TooltipContent>
               </Tooltip>
-              <Button variant="ghost" size="icon" className="h-8 w-8" onClick={onClose}>
-                <X className="h-4 w-4" />
-              </Button>
             </div>
           </div>
         </SheetHeader>

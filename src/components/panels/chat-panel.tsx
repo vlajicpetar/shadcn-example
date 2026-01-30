@@ -2,7 +2,6 @@
 
 import { useState, useRef, useEffect } from "react";
 import {
-  X,
   Send,
   RotateCcw,
   PhoneOff,
@@ -161,9 +160,6 @@ export function ChatPanel({ isOpen, onClose }: ChatPanelProps) {
                 </TooltipTrigger>
                 <TooltipContent>Settings</TooltipContent>
               </Tooltip>
-              <Button variant="ghost" size="icon" className="h-8 w-8" onClick={onClose}>
-                <X className="h-4 w-4" />
-              </Button>
             </div>
           </div>
         </SheetHeader>
